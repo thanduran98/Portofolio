@@ -1,0 +1,183 @@
+/* To use nineteenth font */
+@font-face {
+    font-family: "nineteenth";
+    src: url("../font/nineteenth.otf");
+}
+
+*{
+    box-sizing: border-box;
+    font-family: "nineteenth";
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    width: 100%;
+    position: absolute;
+    background-color: black;
+}
+
+.content_wrap{
+    padding-top: 12vw;
+}
+
+.content_wrap_cover{
+    padding-top: 0vw;
+}
+
+.topnav{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #E67F22;
+}
+
+.topnav a{
+    border-style: solid;
+    border-color: transparent;
+    color: white;
+    text-align: center;
+    padding: 15px 15px;
+    font-family: "nineteenth";
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.topnav .wrapper{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    background-image: url("../Assets/header_footer/trapezoid.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    top: 100px;
+}
+
+.wrapper .logo{
+    display: flex;
+    justify-content: center;
+}
+
+#logo{
+    margin-top: -100px;
+    width: 23vw;
+}
+
+.dropdown{
+    display: block;
+}
+
+.dropdown a{
+    display: none;
+}
+
+.dropdown a.icon{
+    display: block;
+}
+
+.dropdown.responsive a{
+    display: block;
+    border-style: solid;
+    border-color: transparent;
+    color: white;
+    text-align: center;
+    padding: 15px 15px;
+    font-family: "nineteenth";
+    text-decoration: none;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 800px) {
+    .content_wrap{
+        padding-top: 110vw;
+    }
+
+    .content_wrap_cover{
+        padding-top: 110vw;
+    }
+
+    .topnav{
+        margin-top: 0;
+        top: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+        background-color: #E67F22;
+        display: block;
+    }
+
+    .topnav .wrapper{
+        margin: 0;
+        padding: 0;
+        position: static;
+        background-image: none;
+        top: 15vh;
+        background-color: black;
+    }
+
+    .topnav a {
+        float: none;
+        display: block;
+        padding-right: 5vw;
+        text-align: right;
+        font-size: 15px;
+    }
+    .dropdown a{
+    	display: none;
+    }
+    .dropdown.responsive a{
+        display: block;
+        border-style: solid;
+        border-color: transparent;
+        color: white;
+        text-align: right;
+        padding: 15px 15px;
+        padding-right: 40px;
+        font-family: "nineteenth";
+        text-decoration: none;
+        font-size: 15px;
+    }
+    .dropdown a.icon{
+        padding-right: 20px;
+    }
+    #logo{
+        margin-top: 0;
+        width: 60%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+
+
+.slider{
+    padding-top: 25vh;
+}
+
+footer{
+    padding: 15px;
+    overflow: hidden;
+    width: 100%;
+    background-color: black;
+    display: inline-block;
+    margin-bottom: -10px;
+}
+
+footer .wrapper{
+    text-align: center;
+}
+
+footer a{
+    padding: 10px;
+}
+
+footer p{
+    display: block;
+    font-family: "nineteenth";
+    color: white;
+    font-size: 18px;
+    text-align: center;
+}

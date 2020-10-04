@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/navbar.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <script type="text/javascript" src="js/jquery-3.5.1.min.js"></script>
+    <title>Xtream Chaser | Home</title>
+</head>
+<body>
+    <header>
+        <div class="topnav">
+            <script type="text/javascript" src="js/navbar.js"></script>
+            <div class="wrapper">
+                <div class="logo">
+                    <a href="index.html"><img src="Assets/header_footer/logo.png" id="logo"></a>
+                </div>
+            </div>
+            <a href="gallery.html">GALLERY</a>
+            <div class="dropdown" id="character">
+                <a href="javascript:void(0);" class="icon" onclick="responsiveChar()">CHARACTERS</a>
+                <a href="characters.html#asuri">Asuri</a>
+                <a href="characters.html#fait">Fait</a>
+                <a href="characters.html#queen">Queen Nai</a>
+                <a href="characters.html#zariel">Zariel</a>
+                <a href="characters.html#yumiko">Yumiko</a>
+                <a href="characters.html#orion">Orion</a>
+                <a href="characters.html#diana">Diana</a>
+            </div>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <a href="lore.html">LORE</a>
+            <a href="register.html">REGISTER</a>
+        </div>
+    </header>
+    <div class="content_wrap">
+        <div class="slideshow-container">
+            <div class="mySlides fade">
+                <img src="Assets/home/slider 1.png">
+                <div class="text-box">
+                    <div class="text">
+                        <h1>Xtream Chaser</h1>
+                        <p>History’s greatest warriors brawl to prove who’s the best in an epic test of strength and skill. These slugfests are salted with powerful weapons and gadgets. Every weapon you pick up changes your style of play </p>
+                    </div>
+                </div>
+            </div>
+            <div class="mySlides fade">
+                <img src="Assets/home/slider 2.png">
+                <div class="text-box">
+                    <div class="text">
+                        <h1>Online Ranked 1v1 and 2v2</h1>
+                        <p>Climb the ranked ladder from Tin up to Platinum and beyond! Matches you against players near your skill level. Climb the ranked ladder with a friend! Matches you and a partner against teams near you skill level. Your friend can be online or right next to you.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="mySlides fade">
+                <img src="Assets/home/slider 3.jpg">
+                <div class="text-box">
+                    <div class="text">
+                        <h1>4 Players Online Free</h1>
+                        <p>Casual matches where four fighters enter, but only one can win.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="mySlides fade">
+                <img src="Assets/home/slider 4.jpg">
+                <div class="text-box">
+                    <div class="text">
+                        <h1>Many Game Modes</h1>
+                        <p>Mix things up with Brawlball, Bombsketball, Capture the Flag, Kung-Foot, and many more fun party game modes.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="dot-button">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+            </div>
+            <script type="text/javascript" src="js/index.js"></script>
+        </div>
+        <div class="gallery">
+            <div class="title">
+                <a class="submenu" href="gallery.html">GALLERY</a>
+            </div>
+            <div class="wrapper">
+                <div class="first">
+                    <img src="Assets/home/gallery 1.png">
+                    <div class="text">
+                        Practice combos and setups inside the Training Room! Look at detailed frame data, hitboxes, hurtboxes, and sharpen your skills.
+                    </div> 
+                </div>
+                <div class="second">
+                    <img src="Assets/home/gallery 2.png">
+                    <div class="text">
+                        Team-up on your local machine, by adding up to 4 bots into the mix for living-room level mayhem.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="under">
+            <div class="characters">
+                <a class="submenu" href="characters.html">CHARACTERS</a>
+                <div class="wrapper">
+                    <div class="image-contain">
+                        <img src="Assets/home/char 1.png">
+                        <div class="text">Queen Nai</div>
+                    </div>
+                    <div class="image-contain">
+                        <img src="Assets/home/char 2.jpg">
+                        <div class="text">Zariel</div>
+                    </div>
+                    <div class="image-contain">
+                        <img src="Assets/home/char 3.png">
+                        <div class="text">Yumiko</div>
+                    </div>
+                </div>
+            </div>
+            <div class="lore">
+                <a class="submenu" href="lore.html">LORE</a>
+                <div class="wrapper">
+                    <div class="image-contain">
+                        <img src="Assets/home/lore.jpg">
+                        <div class="text">
+                            The Order of the Exalted Lion is unique to the Brawlhalla universe.                   
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>    
+    </div>
+    
+    <footer>
+        <div class="wrapper">
+            <div class="social-media">
+                <a href="https://instagram.com"><img src="Assets/header_footer/instagram.png"></a>
+                <a href="https://facebook.com"><img src="Assets/header_footer/facebook.png"></a>
+                <a href="https://twitter.com"><img src="Assets/header_footer/twitter.png"></a>
+            </div>
+        </div>
+        <p>© 2020 Project Lab HCI<br/>Claire Davin Mika Thania</p>
+    </footer>
+</body>
+</html>

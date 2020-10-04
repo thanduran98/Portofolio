@@ -1,0 +1,60 @@
+body{
+    margin: 0vh;
+}
+
+.lore-page div{
+    display: inline-block;
+}
+
+.content{
+    background-image: url('../Assets/lore/order_of_the_exalted_lion.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#title{
+    display: block;
+    width: 50vw;
+    font-size: 6vh;
+    text-align: center;   
+    color: orange;
+    background-color: rgba(255, 255, 255, 0.73);
+    margin-top: 60vh;
+    margin-bottom: 44vh;
+    margin-left: 22vw;
+    margin-right: 22vw;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    padding-left: 3vh;
+    padding-right: 3vh;
+    border: 0vh;
+    border-radius: 2.4vh;
+}
+
+.story{
+    background-color: rgba(255, 255, 255, 0.73);
+    margin-left: 3vw;
+    margin-right: 3vw;
+    margin-bottom: 3vh;
+    padding-left: 3vh;
+    padding-right: 3vh;
+    border: 0vh;
+    border-radius: 2.4vh;
+}
+
+.story h2{
+    color: orange;
+    font-size: 4.2vh;
+    margin-top: 3vh;
+    margin-bottom: 1.3vh;
+}
+
+#story-connections{
+    font-size: 2.8vh;
+}
+
+#story-context{
+    font-size: 2.8vh;
+}

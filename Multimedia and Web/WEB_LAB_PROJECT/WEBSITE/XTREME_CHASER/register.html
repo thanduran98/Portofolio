@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/navbar.css">
+	<link rel="stylesheet" type="text/css" href="css/register.css">
+	<title>Pre-Register</title>
+</head>	
+
+<body onload="disableSubmit()">
+    <header>
+        <div class="topnav">
+            <script type="text/javascript" src="js/navbar.js"></script>
+            <div class="wrapper">
+                <div class="logo">
+                    <a href="index.html"><img src="Assets/header_footer/logo.png" id="logo"></a>
+                </div>
+            </div>
+            <a href="gallery.html">GALLERY</a>
+            <div class="dropdown" id="character">
+                <a href="javascript:void(0);" class="icon" onclick="responsiveChar()">CHARACTERS</a>
+                <a href="characters.html#asuri">Asuri</a>
+                <a href="characters.html#fait">Fait</a>
+                <a href="characters.html#queen">Queen Nai</a>
+                <a href="characters.html#zariel">Zariel</a>
+                <a href="characters.html#yumiko">Yumiko</a>
+                <a href="characters.html#orion">Orion</a>
+                <a href="characters.html#diana">Diana</a>
+            </div>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <a href="lore.html">LORE</a>
+            <a href="register.html">REGISTER</a>
+        </div>
+    </header>
+    <div class="content_wrap">
+    	<div class="form" name='registration'>
+			<p class="join">Pre-Register</p>
+
+			<input id="email" type="email" class="input_field" placeholder="Email">
+
+			<input id="username" type="username" class="input_field" placeholder="Username">
+
+			<input id="password" type="password" class="input_field" placeholder="Password">
+
+			<div class="gender"> 
+				<div class="text-gender">Gender</div>
+				<input id="male" class="option-gender" type="radio" name="Gen" value="male"> Male
+				<input id="female" class="option-gender" type="radio" name="Gen" value="female"> Female
+			</div>
+			<div class="DOB"> 
+				<div class="text-DOB">DOB</div>
+				<input id="DOB" type="date" class="input_field" value="0000-00-00">
+			</div>
+			<select class="input_field" id="nation">
+				<option value="default" disabled selected class="placeholder">Nation</option>
+				<option value="Indonesia">Indonesia</option> 
+				<option value="Malaysia">Malaysia</option> 
+				<option value="Singapore">Singapore</option> 
+				<option value="Vietnam">Vietnam</option> 
+				<option value="Brunei">Brunei</option> 
+				<option value="Thailand">Thailand</option> 
+				<option value="Myanmar">Myanmar</option>
+				<option value="Cambodia">Cambodia</option>
+				<option value="Philipines">Philipines</option>
+				<option value="Laos">Laos</option>
+				<option value="Timor Leste">Timor Leste</option>
+			</select>
+
+			<div class="term_con">
+				<input type="checkbox" name="terms" onchange="activateButton(this)"> 
+				I accept the 
+				<u>Terms and Conditions</u>
+			</div>
+
+			<button class="submit" type="button" id="submit">Register</button>
+
+		</div>
+		<script type="text/javascript" src="js/register.js"></script>
+    </div>
+	
+
+	<footer>
+        <div class="wrapper">
+            <div class="social-media">
+                <a href="https://instagram.com"><img src="Assets/header_footer/instagram.png"></a>
+                <a href="https://facebook.com"><img src="Assets/header_footer/facebook.png"></a>
+                <a href="https://twitter.com"><img src="Assets/header_footer/twitter.png"></a>
+            </div>
+        </div>
+        <p>© 2020 Project Lab HCI<br/>Claire Davin Mika Thania</p>
+    </footer>
+</body>
+</html>

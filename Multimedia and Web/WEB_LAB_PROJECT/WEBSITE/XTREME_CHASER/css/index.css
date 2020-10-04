@@ -1,0 +1,253 @@
+@font-face {
+    font-family: "nineteenth";
+    src: url("../font/nineteenth.otf");
+}
+
+img{
+    max-width: 100%;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+.mySlides {
+    display: none;
+}
+
+.dot-button{
+    position: absolute;
+    top: 500px;
+    right: 25px;
+}
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 5px;
+    right: 25px;
+    background-color: white;
+    border-radius: 50%;
+    display: block;
+}
+
+.active, .dot:hover {
+    background-color: #717171;
+}
+
+.slideshow-container .text-box{
+    max-width: 100%;
+    background-color: rgba(0, 0, 0, 0.582);
+    margin-top: -11.7%;
+    z-index: 5;
+    position: relative;
+    max-height: 11.7%;
+}
+
+.slideshow-container .text-box .text{
+    padding: 15px;
+}
+
+.slideshow-container .text h1{
+    color: white;
+    text-align: justify;
+    font-family: "nineteenth";
+    text-decoration: none;
+    font-size: 3vw;
+}
+
+.slideshow-container .text p{
+    color: white;
+    text-align: justify;
+    font-family: "nineteenth";
+    text-decoration: none;
+    font-size: 18px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 0.5s;
+  animation-name: fade;
+  animation-duration: 0.5;
+  z-index: -1;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: 0} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: 0} 
+  to {opacity: 1}
+}
+
+@media screen and (max-width: 800px) {
+    .slideshow-container .text p{
+        display: none;    
+    }
+}
+
+.gallery{
+    margin-top: -35px;
+    padding-top: 35px;
+    background-color: black;
+}
+
+.gallery .wrapper{
+    max-width: 100%;
+    margin-top: -80px;
+    margin-bottom: 50px;
+    padding: 15px;
+    background-color: #252525;
+    display: flex;
+    justify-content: center;
+}
+
+.gallery .title{
+    width: 40%;
+    display: inline-block;
+    background-image: url("../Assets/home/gallery title.png");
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 1;
+}
+
+@media screen and (max-width: 800px){
+    .gallery .title{
+        background: none;
+        margin-bottom: 80px;
+    }
+}
+
+.submenu{
+    color: white;
+    text-align: justify;
+    font-family: "nineteenth";
+    text-decoration: none;
+    font-size: 48px;
+    margin: 30px;
+    margin-right: 265px;
+}
+
+.gallery .first{
+    position: relative;
+    margin: 15px;
+}
+
+.gallery .second{
+    position: relative;
+    margin: 15px;    
+}
+
+@media screen and (max-width: 800px){
+    .gallery .second{
+        display: none;
+    }
+}
+
+.gallery .text{
+    background-color: rgba(0, 0, 0, 0.582);
+    position: absolute;
+    max-width: 100%;
+    bottom: 2px;
+    padding: 15px;
+    color: white;
+    text-align: justify;
+    font-family: "nineteenth";
+    text-decoration: none;
+    font-size: 18px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.under{
+    margin-top: -50px;
+    background-color: #E67F22;
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 50px;
+}
+
+@media screen and (max-width: 800px){
+    .under{
+        display: block;
+    }
+}
+
+.characters h2{
+    color: white;
+    text-align: right;
+    font-family: "nineteenth";
+    text-decoration: none;
+    font-size: 48px;
+    margin: 30px;
+}
+
+.characters .wrapper{
+    margin: 15px;
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.5);
+    display: flex;
+    justify-content: center;
+}
+
+.characters .image-contain{
+    margin: 5px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.characters .text{
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+    padding: 15px;
+    color: white;
+    text-align: center;
+    font-family: "nineteenth";
+    text-decoration: none;
+    font-size: 18px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 100%;
+}
+
+.lore .wrapper{
+    margin: 15px;
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.5);
+    display: flex;
+    width: fit-content;
+    justify-content: center;
+}
+
+.lore .image-contain{
+    margin: 5px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.lore .text{
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    bottom: 0;
+    padding: 15px;
+    color: white;
+    text-align: center;
+    font-family: "nineteenth";
+    text-decoration: none;
+    font-size: 18px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 100%;
+}

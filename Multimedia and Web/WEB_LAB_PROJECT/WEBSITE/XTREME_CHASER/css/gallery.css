@@ -1,0 +1,119 @@
+
+body{
+    background: url("../Assets/gallery/bg.jpg");
+    background-color: rgba(255,255,255,0.9);
+    background-blend-mode: lighten;
+}
+
+
+h1{
+    text-align: center;
+    color: blue;
+}
+
+h3{
+    text-align: center;
+    color: white;
+}
+
+.box{
+    border: 1px solid black;
+    margin-top: 10%;
+    margin-bottom: 3%;
+    margin-right: 30%;
+    margin-left: 30%;
+    background-color: black;
+    border-radius: 25px;
+}
+
+.clearfix::after{
+    content: ""; */
+    clear: both;
+    display: table;
+    overflow: auto;
+}
+
+hr {
+    border: 1;
+    border-top: 1px solid whitesmoke;
+    opacity: 0.1;
+ }
+
+/* Event */
+
+.galleryEvent img{
+    transition: 0.5s;
+    width: 100%;
+    height: auto;
+}
+.galleryEvent img:hover{
+    transform: scale(1.1);
+}
+.des{
+    padding: 15px;
+    /* text-align: center; */
+}
+
+/* Gallery */
+
+* {
+    box-sizing: border-box;
+}
+  
+/* Create two equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 50%;
+    padding: 3% 6%;
+}
+
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
+
+.gallery{
+    text-align: center;
+    /* margin: 10px 100px; */
+}
+
+.gallery img{
+    transition: 1s;
+    padding: 5%;
+    width: 80%;
+}
+
+.gallery img:hover{
+    transform: scale(1.1);
+}
+
+
+
+.responsive{
+    padding: 0 6px;
+    float: left;
+    width: 25%;
+}
+
+@media only screen and (max-width: 700px){
+    .responsive{
+        width: 50%;
+        margin: 6px 0;
+    }
+}
+@media only screen and (max-width: 500px){
+    .responsive{
+        width: 100%;
+    }
+}
